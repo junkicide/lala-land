@@ -2,6 +2,16 @@
 using System.Collections;
 
 public class player : MonoBehaviour {
+	Vector3[] localpos = new [] {new Vector3 (0f, 0f, 0.73f), 
+		new Vector3 (0f, 0f, -0.73f),
+		new Vector3 (-0.73f, 0f, 0f), 
+		new Vector3 (0.73f, 0f, 0f),
+		new Vector3 (-0.5f, 0f, 0.5f), 
+		new Vector3 (0.5f, 0f, -0.5f),
+		new Vector3 (-0.5f, 0f, -0.5f),
+		new Vector3 (0.5f, 0f, 0.5f)};
+	static int ctr = 0;
+
 	float sideways;
 	float forward;
 	// Use this for initialization
@@ -24,6 +34,8 @@ public class player : MonoBehaviour {
 	void OnCollisionEnter (Collision other) {
 		if(other.gameObject.tag == "power") { 
 			other.transform.parent = transform;
+			other.transform.localPosition = localpos[ctr];
+			ctr++;
 		}
 	}
 }

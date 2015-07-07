@@ -10,12 +10,21 @@ public class creator : MonoBehaviour {
 		Vector3 pos3 = new Vector3 (Random.Range(-8,9), 0, Random.Range (-5, 5));
 		Vector3 pos4 = new Vector3 (Random.Range(-8,9), 0, Random.Range (-5, 5));
 		Vector3 pos5 = new Vector3 (Random.Range(-8,9), 0, Random.Range (-5, 5));
+		Vector3 pos6 = new Vector3 (Random.Range(-8,9), 0, Random.Range (-5, 5));
+		Vector3 pos7 = new Vector3 (Random.Range(-8,9), 0, Random.Range (-5, 5));
+		Vector3 pos8 = new Vector3 (Random.Range(-8,9), 0, Random.Range (-5, 5));
+
+
 
 		Instantiate (powerprefab, pos1, Quaternion.identity);
 		Instantiate (powerprefab, pos2, Quaternion.identity);
 		Instantiate (powerprefab, pos3, Quaternion.identity);
 		Instantiate (powerprefab, pos4, Quaternion.identity);
 		Instantiate (powerprefab, pos5, Quaternion.identity);
+		Instantiate (powerprefab, pos6, Quaternion.identity);
+		Instantiate (powerprefab, pos7, Quaternion.identity);
+		Instantiate (powerprefab, pos8, Quaternion.identity);
+
 
 
 	}
