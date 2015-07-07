@@ -5,14 +5,14 @@ public class creator : MonoBehaviour {
 	public power powerprefab;
 	// Use this for initialization
 	void Start () {
-		Vector3 pos1 = new Vector3 (Random.Range(-8,9), 0, Random.Range (-5, 5));
-		Vector3 pos2 = new Vector3 (Random.Range(-8,9), 0, Random.Range (-5, 5));
-		Vector3 pos3 = new Vector3 (Random.Range(-8,9), 0, Random.Range (-5, 5));
-		Vector3 pos4 = new Vector3 (Random.Range(-8,9), 0, Random.Range (-5, 5));
-		Vector3 pos5 = new Vector3 (Random.Range(-8,9), 0, Random.Range (-5, 5));
-		Vector3 pos6 = new Vector3 (Random.Range(-8,9), 0, Random.Range (-5, 5));
-		Vector3 pos7 = new Vector3 (Random.Range(-8,9), 0, Random.Range (-5, 5));
-		Vector3 pos8 = new Vector3 (Random.Range(-8,9), 0, Random.Range (-5, 5));
+		Vector3 pos1 = new Vector3 (Random.Range(-8,9), 0, Random.Range (-4, 5));
+		Vector3 pos2 = new Vector3 (Random.Range(-8,9), 0, Random.Range (-4, 5));
+		Vector3 pos3 = new Vector3 (Random.Range(-8,9), 0, Random.Range (-4, 5));
+		Vector3 pos4 = new Vector3 (Random.Range(-8,9), 0, Random.Range (-4, 5));
+		Vector3 pos5 = new Vector3 (Random.Range(-8,9), 0, Random.Range (-4, 5));
+		Vector3 pos6 = new Vector3 (Random.Range(-8,9), 0, Random.Range (-4, 5));
+		Vector3 pos7 = new Vector3 (Random.Range(-8,9), 0, Random.Range (-4, 5));
+		Vector3 pos8 = new Vector3 (Random.Range(-8,9), 0, Random.Range (-4, 5));
 
 
 

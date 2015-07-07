@@ -14,6 +14,7 @@ public class player : MonoBehaviour {
 
 	float sideways;
 	float forward;
+	static Vector3 movement;
 	// Use this for initialization
 	void Start () {
 
@@ -26,9 +27,10 @@ public class player : MonoBehaviour {
 		float speed = 5.0f;
 		sideways = Input.GetAxisRaw("Horizontal");
 		forward = Input.GetAxisRaw("Vertical");
-		Vector3 movement = new Vector3 (sideways, 0, forward);
+	 	movement = new Vector3 (sideways, 0, forward);
 
 		GetComponent<Rigidbody>().velocity = movement * speed;
+		GetComponent<Rigidbody>().position = new Vector3 (GetComponent<Rigidbody>().position.x, 0, Mathf.Clamp(GetComponent<Rigidbody>().position.z, -4, 4));
 
 	}
 	void OnCollisionEnter (Collision other) {
