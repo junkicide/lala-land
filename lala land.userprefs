@@ -1,9 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\space shooter\Assets\Scripts\PlayerController.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\NewBehaviourScript.cs">
     <Files>
-      <File FileName="..\space shooter\Assets\Scripts\PlayerController.cs" Line="35" Column="2" />
-      <File FileName="..\space shooter\Assets\Scripts\Mover.cs" Line="12" Column="2" />
+      <File FileName="Assets\scripts\player.cs" Line="32" Column="89" />
+      <File FileName="Assets\scripts\creator.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\power.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\NewBehaviourScript.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
